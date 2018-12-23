@@ -7,7 +7,7 @@ var config = {
 		db: 	  process.env.DB_NAME 		// your database name
 	},
 	server: {
-		host: app,
+		host: 'app',
 		port: '3000'
 	}
 }
