@@ -1,13 +1,13 @@
 var config = {
 	database: {
-		host:	  'localhost', 	// database host
-		user: 	  'root', 		// your database username
-		password: 'root', 		// your database password
+		host:	  'db', 	// database host
+		user: 	  '${DB_USER}', 		// your database username
+		password: '${DB_PASSWORD}', 		// your database password
 		port: 	  3306, 		// default MySQL port
-		db: 	  'test' 		// your database name
+		db: 	  '${DB_NAME}' 		// your database name
 	},
 	server: {
-		host: '127.0.0.1',
+		host: '${IP_EXT}',
 		port: '3000'
 	}
 }
