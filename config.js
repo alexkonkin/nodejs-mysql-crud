@@ -1,13 +1,13 @@
 var config = {
 	database: {
 		host:	  'db', 	// database host
-		user: 	  '${DB_USER}', 		// your database username
-		password: '${DB_PASSWORD}', 		// your database password
+		user: 	  process.env.DB_USER, 		// your database username
+		password: process.env.DB_PASSWORD, 		// your database password
 		port: 	  3306, 		// default MySQL port
-		db: 	  '${DB_NAME}' 		// your database name
+		db: 	  process.env.DB_NAME 		// your database name
 	},
 	server: {
-		host: '${IP_EXT}',
+		host: app,
 		port: '3000'
 	}
 }
