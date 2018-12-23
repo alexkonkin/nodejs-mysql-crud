@@ -13,6 +13,10 @@
   ],
   "author": "Mukesh Chapagain",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/alexkonkin/nodejs-mysql-crud.git"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
